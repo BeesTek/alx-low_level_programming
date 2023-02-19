@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	
+
 	int d, p;
 
 	for (d = '0'; d < '9'; d++)
@@ -23,9 +23,9 @@ int main(void)
 	{
 	putchar(d);
 	putchar(p);
-	if (d == '0' && p == '9')
+	if (d == '8' && p == '9')
 	continue;
-  	putchar(',');
+	putchar(',');
 	putchar(' ');
 	}
 	}
